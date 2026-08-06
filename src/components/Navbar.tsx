@@ -56,12 +56,16 @@ export default function Navbar() {
             </span>
           </div>
           <div className="flex items-center gap-3">
-            <a href="#" className="hover:text-amber-400 transition-colors" aria-label="Website">
+            <Link
+              href="/admin"
+              className="hover:text-amber-400 transition-colors"
+              aria-label="Admin Panel"
+            >
               <Globe className="w-4 h-4" />
-            </a>
-            <a href="#" className="hover:text-amber-400 transition-colors" aria-label="Follow us">
+            </Link>
+            {/* <a href="#" className="hover:text-amber-400 transition-colors" aria-label="Follow us">
               <Heart className="w-4 h-4" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
